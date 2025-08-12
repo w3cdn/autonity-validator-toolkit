@@ -31,7 +31,6 @@ services:
     command:
       - --datadir=/autonity-chaindata
       - --port=30304
-      - --networkid=65000000
       - --syncmode=full
       - --cache=4096
       - --cache.trie=30

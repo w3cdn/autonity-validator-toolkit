@@ -7,7 +7,7 @@
    ```
    mkdir -p /usr/src/autonity_rpc_node
    cd /usr/src/autonity_rpc_node
-   wget -O docker-compose.yaml https://raw.githubusercontent.com/web3cdnservices/autonity-validator-toolkit/refs/heads/main/docs/subquery/docker-compose-public-rpc.yml
+   wget -O docker-compose.yaml https://raw.githubusercontent.com/w3cdn/autonity-validator-toolkit/refs/heads/main/docs/subquery/docker-compose-public-rpc.yml
    ```
 
    
@@ -25,7 +25,7 @@
 
 3. ### Connect Autonity RPC to Subquery Indexer
 
-   #### 3.1.  Add new project with cid: `QmSXV8pkxKufQNGdaJ2N15t4cCta4iYWL7QXdLvtjEaS48`
+   #### 3.1.  Add new project with cid: `QmcjZrittoBM5pTQfksNdF9w84q2fhieE4CyuTeMc11pVy`
 
    #### 3.2.  Fill fields with values:
 

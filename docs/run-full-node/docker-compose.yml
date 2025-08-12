@@ -31,14 +31,10 @@ services:
     command:
       - --datadir=/autonity-chaindata
       - --port=30304
-      - --networkid=65000000
+      - --networkid=65010004
       - --syncmode=full
-      - --mainnet
-      - --cache=4096
-      - --cache.trie=30
-      - --cache.gc=0
-      - --cache.snapshot=20
-      - --gcmode=archive
+      - --bakerloo
+      - --gcmode=full
       - --graphql
       - --graphql.vhosts=*
       - --http
